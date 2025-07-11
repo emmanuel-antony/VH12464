@@ -33,13 +33,11 @@ const VALID_PACKAGES = {
 
 // const LOG_API_URL = "http://20.244.56.144/evaluation-service/logs";
 
-// // Your evaluation token goes here
 // const AUTH_TOKEN =
 //   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJlbW1hbnVlbGFudG9ueTIwMDVAZ21haWwuY29tIiwiZXhwIjoxNzUyMjE2MzQ5LCJpYXQiOjE3NTIyMTU0NDksImlzcyI6IkFmZm9yZCBNZWRpY2FsIFRlY2hub2xvZ2llcyBQcml2YXRlIExpbWl0ZWQiLCJqdGkiOiJhZmNhYjdjNi04OGVhLTRlNjEtOGViYS1lNTIzYzUyMGY4NWUiLCJsb2NhbGUiOiJlbi1JTiIsIm5hbWUiOiJlbW1hbnVlbCAuIGEiLCJzdWIiOiI3Nzk1YzI0Yy1iNDIxLTQ3NmYtODExMi1iYzJlNzhhZjI4ODUifSwiZW1haWwiOiJlbW1hbnVlbGFudG9ueTIwMDVAZ21haWwuY29tIiwibmFtZSI6ImVtbWFudWVsIC4gYSIsInJvbGxObyI6InZoMTI0NjQiLCJhY2Nlc3NDb2RlIjoiQ1dicWdLIiwiY2xpZW50SUQiOiI3Nzk1YzI0Yy1iNDIxLTQ3NmYtODExMi1iYzJlNzhhZjI4ODUiLCJjbGllbnRTZWNyZXQiOiJxSlFGc01iYVVmUlBWYUZ4In0.MUmI-zQBQeoVfBIY-GG14lriXQYV4lwh-ln99Tekv8U";
 
 class Logger {
   async log(stack, level, packageName, message) {
-    // Validate parameters
     if (!this.validateParams(stack, level, packageName)) {
       throw new Error("Invalid logging parameters");
     }
