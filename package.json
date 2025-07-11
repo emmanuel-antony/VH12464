@@ -1,0 +1,12 @@
+{
+  "name": "vh12464",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000V\u0000H\u00001\u00002\u00004\u00006\u00004\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
