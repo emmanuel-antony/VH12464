@@ -2,6 +2,7 @@
   "name": "vh12464",
   "version": "1.0.0",
   "description": "URL Shortener with Logging Middleware",
+  "type": "module",
   "main": "Backend/server.js",
   "scripts": {
     "start": "node Backend/server.js",
